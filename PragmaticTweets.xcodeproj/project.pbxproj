@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41DAD2D1B519782003AC14C /* ParsedTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41DAD2C1B519782003AC14C /* ParsedTweet.swift */; };
 		E46976E01B4F1A3000D5641F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46976DF1B4F1A3000D5641F /* AppDelegate.swift */; };
 		E46976E21B4F1A3000D5641F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46976E11B4F1A3000D5641F /* ViewController.swift */; };
 		E46976E51B4F1A3000D5641F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46976E31B4F1A3000D5641F /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		E46976EA1B4F1A3000D5641F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46976E81B4F1A3000D5641F /* LaunchScreen.xib */; };
 		E46976F61B4F1A3000D5641F /* PragmaticTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46976F51B4F1A3000D5641F /* PragmaticTweetsTests.swift */; };
 		E4C7DE9F1B50514100A35473 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4C7DEA11B50514100A35473 /* Localizable.strings */; };
-		E4C7DEA61B506B7000A35473 /* ParsedTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */; };
 		E4C7DEAA1B507B7C00A35473 /* ParsedTweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7DEA91B507B7C00A35473 /* ParsedTweetCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E41DAD2C1B519782003AC14C /* ParsedTweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsedTweet.swift; sourceTree = "<group>"; };
 		E46976DA1B4F1A3000D5641F /* PragmaticTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PragmaticTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46976DE1B4F1A3000D5641F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46976DF1B4F1A3000D5641F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		E4C7DE9C1B504F2E00A35473 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E4C7DEA01B50514100A35473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E4C7DEA21B50514500A35473 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParsedTweet.swift; path = ../ParsedTweet.swift; sourceTree = "<group>"; };
 		E4C7DEA91B507B7C00A35473 /* ParsedTweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsedTweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 		E46976DC1B4F1A3000D5641F /* PragmaticTweets */ = {
 			isa = PBXGroup;
 			children = (
-				E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */,
+				E41DAD2C1B519782003AC14C /* ParsedTweet.swift */,
 				E46976DF1B4F1A3000D5641F /* AppDelegate.swift */,
 				E46976E11B4F1A3000D5641F /* ViewController.swift */,
 				E46976E31B4F1A3000D5641F /* Main.storyboard */,
@@ -226,8 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41DAD2D1B519782003AC14C /* ParsedTweet.swift in Sources */,
 				E4C7DEAA1B507B7C00A35473 /* ParsedTweetCell.swift in Sources */,
-				E4C7DEA61B506B7000A35473 /* ParsedTweet.swift in Sources */,
 				E46976E21B4F1A3000D5641F /* ViewController.swift in Sources */,
 				E46976E01B4F1A3000D5641F /* AppDelegate.swift in Sources */,
 			);
