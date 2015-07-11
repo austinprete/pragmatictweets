@@ -13,6 +13,9 @@
 		E46976E71B4F1A3000D5641F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46976E61B4F1A3000D5641F /* Images.xcassets */; };
 		E46976EA1B4F1A3000D5641F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46976E81B4F1A3000D5641F /* LaunchScreen.xib */; };
 		E46976F61B4F1A3000D5641F /* PragmaticTweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46976F51B4F1A3000D5641F /* PragmaticTweetsTests.swift */; };
+		E4C7DE9F1B50514100A35473 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4C7DEA11B50514100A35473 /* Localizable.strings */; };
+		E4C7DEA61B506B7000A35473 /* ParsedTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */; };
+		E4C7DEAA1B507B7C00A35473 /* ParsedTweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7DEA91B507B7C00A35473 /* ParsedTweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 		E46976EF1B4F1A3000D5641F /* PragmaticTweetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragmaticTweetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46976F41B4F1A3000D5641F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46976F51B4F1A3000D5641F /* PragmaticTweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragmaticTweetsTests.swift; sourceTree = "<group>"; };
+		E4C7DE9B1B504F2E00A35473 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		E4C7DE9C1B504F2E00A35473 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E4C7DEA01B50514100A35473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E4C7DEA21B50514500A35473 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParsedTweet.swift; path = ../ParsedTweet.swift; sourceTree = "<group>"; };
+		E4C7DEA91B507B7C00A35473 /* ParsedTweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsedTweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +86,14 @@
 		E46976DC1B4F1A3000D5641F /* PragmaticTweets */ = {
 			isa = PBXGroup;
 			children = (
+				E4C7DEA51B506B7000A35473 /* ParsedTweet.swift */,
 				E46976DF1B4F1A3000D5641F /* AppDelegate.swift */,
 				E46976E11B4F1A3000D5641F /* ViewController.swift */,
 				E46976E31B4F1A3000D5641F /* Main.storyboard */,
 				E46976E61B4F1A3000D5641F /* Images.xcassets */,
 				E46976E81B4F1A3000D5641F /* LaunchScreen.xib */,
 				E46976DD1B4F1A3000D5641F /* Supporting Files */,
+				E4C7DEA91B507B7C00A35473 /* ParsedTweetCell.swift */,
 			);
 			path = PragmaticTweets;
 			sourceTree = "<group>";
@@ -91,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E46976DE1B4F1A3000D5641F /* Info.plist */,
+				E4C7DEA11B50514100A35473 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +187,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = E46976D11B4F1A3000D5641F;
 			productRefGroup = E46976DB1B4F1A3000D5641F /* Products */;
@@ -193,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46976E51B4F1A3000D5641F /* Main.storyboard in Resources */,
+				E4C7DE9F1B50514100A35473 /* Localizable.strings in Resources */,
 				E46976EA1B4F1A3000D5641F /* LaunchScreen.xib in Resources */,
 				E46976E71B4F1A3000D5641F /* Images.xcassets in Resources */,
 			);
@@ -212,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C7DEAA1B507B7C00A35473 /* ParsedTweetCell.swift in Sources */,
+				E4C7DEA61B506B7000A35473 /* ParsedTweet.swift in Sources */,
 				E46976E21B4F1A3000D5641F /* ViewController.swift in Sources */,
 				E46976E01B4F1A3000D5641F /* AppDelegate.swift in Sources */,
 			);
@@ -240,6 +256,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E46976E41B4F1A3000D5641F /* Base */,
+				E4C7DE9B1B504F2E00A35473 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,8 +265,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				E46976E91B4F1A3000D5641F /* Base */,
+				E4C7DE9C1B504F2E00A35473 /* fr */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E4C7DEA11B50514100A35473 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C7DEA01B50514100A35473 /* Base */,
+				E4C7DEA21B50514500A35473 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +438,7 @@
 				E46976FB1B4F1A3000D5641F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46976FC1B4F1A3000D5641F /* Build configuration list for PBXNativeTarget "PragmaticTweetsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +447,7 @@
 				E46976FE1B4F1A3000D5641F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
